@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+</head>
+<body>
+  <h1>Virtual Library</h1>
+  <div id='container'> 
+  </div>
+
+  <form id='form'>
+    <label >Name<input required id='name' type="text"></label>
+    <label>The Author <input  required id='author' type="text"></label>
+    <label>Pages <input required id='pages' type="number"></label>
+    <label>Read <input  id='read' name="radio" type="radio"></label>
+    <label>haven't Read yet <input id='notRead' name="radio" id='read' type="radio"></label>
+    <button id='add' value="Add">Add</button>
+    <p id='para'></p>
+  </form>
+  <button id='toggle' onclick="myFunction()">Add a book</button>
+<script src="./script.js"></script>
+</body>
+</html>
