@@ -90,7 +90,6 @@ function loopThrough(array){
       }
       savetoLocal()
     })
-
     const button = document.createElement('BUTTON')
     button.classList.add('input')
     button.classList.add('btn')
@@ -123,27 +122,9 @@ function myFunction() {
     x.style.display = "none";
   }
 } 
-// const changeText=(array)=>{
-//   for (let i =0;i<array.length;i++){
-//     const btn = document.querySelector('.btn')
-//     const label =document.querySelector('.label')
-//     btn.addEventListener('click',(e)=>{
-//       if (btn.checked){
-//         label.textContent=array.ChangeRead()
-//         array.read=true
-//       }else {
-//         label.textContent=array.ChangeRead()
-//         array.read=false
-//       }
-//     })
-//   }
-// }
-
 // checking for array in loacl storage 
 if (stored){
   myLibrary=stored
 }
 loopThrough(myLibrary)
 addBookToLibrary()
-
-
